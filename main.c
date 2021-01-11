@@ -20,7 +20,7 @@ struct Settings{
   uint8_t measure_pwm;
 };
 
-const struct Settings default_settings = {2010,994,5400,0,1};
+const struct Settings default_settings = {2010,994,5400,1,1};
 struct Settings current_settings;
 
 int putchar(int c) {
